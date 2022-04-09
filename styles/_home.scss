@@ -1,0 +1,22 @@
+.home {
+  &__container {
+    row-gap: 0.5rem;
+    @include grid();
+    max-width: 968px;
+    width: calc(100% - 3rem);
+    margin-left: $mb-3;
+    margin-right: $mb-3;
+  }
+  &__img {
+    width: 280px;
+    justify-self: center;
+  }
+  &__title {
+    font-size: $h1-font-size;
+    font-weight: $font-bold;
+    margin-bottom: $mb-2;
+  }
+  &__description {
+    margin-bottom: $mb-3;
+  }
+}

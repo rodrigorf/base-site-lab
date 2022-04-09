@@ -1,0 +1,18 @@
+.container-layout {
+  max-width: 968px;
+  width: calc(100% - 3rem);
+  margin-left: $mb-3;
+  margin-right: $mb-3;
+}
+
+.grid-layout {
+  @include grid();
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $body-color;
+}
